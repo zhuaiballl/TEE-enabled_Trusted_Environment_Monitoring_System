@@ -1,0 +1,3 @@
+string.h:119:9:strnlen	24	static
+veneer_table.c:43:45:DbgConsole_Printf_NSE	24	static
+veneer_table.c:65:48:StringCompare_NSE	48	static

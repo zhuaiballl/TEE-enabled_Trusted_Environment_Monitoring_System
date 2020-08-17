@@ -1,0 +1,7 @@
+rsa.c:226:11:gcd	40	static
+rsa.c:236:11:ExtEuclid	120	static
+rsa.c:247:11:rsa_modExp	80	static
+rsa.c:267:6:rsa_gen_keys	136	static
+rsa.c:315:12:rsa_encrypt	80	static
+rsa.c:332:7:rsa_decrypt	80	static
+rsa.c:364:12:app_rsa	56	static

@@ -1,0 +1,56 @@
+/*
+typedef struct AppGPIOType_st
+{
+    AppGPIOGroupType* Group;
+    GPIO_TypeDef*     Port;
+    u16     Pin;
+    u8      Dir : 1;        //0:输入，1：输出
+    u8      Value : 3;      //要设置的值
+    u8      FlashType : 4;  //闪烁类型，0：不闪烁,
+}AppGPIOType;
+
+static AppGPIOType AppIOList[IO_NUM]=
+{
+    {&NBStateLED,       0,                      0,                  1,      1,      IO_FLASH_NONE},
+};
+
+
+bool AppIOSet(AppIOType io, u8 value, AppIOFlashType flash_type)
+{
+    AppGPIOType* io_tmp = NULL;
+
+    if (io >= IO_NUM)
+    {
+        return FALSE;
+    }
+    io_tmp = &AppIOList[io];
+
+    AppIOList[io].Value = value;
+    AppIOList[io].FlashType = flash_type;
+
+    if (io_tmp->FlashType == IO_FLASH_NONE)
+    {
+        if (io_tmp->Group == NULL)//单pin
+        {
+            HAL_GPIO_WritePin(io_tmp->Port, io_tmp->Pin, io_tmp->Value);
+        }
+        else//复合pin
+        {
+            if (io_tmp->Group->Port[0] != 0)
+            {
+                HAL_GPIO_WritePin(io_tmp->Group->Port[0], io_tmp->Group->Pin[0], (io_tmp->Value & 0x01));
+            }
+            if (io_tmp->Group->Port[1] != 0)
+            {
+                HAL_GPIO_WritePin(io_tmp->Group->Port[1], io_tmp->Group->Pin[1], (io_tmp->Value & 0x02));
+            }
+            if (io_tmp->Group->Port[2] != 0)
+            {
+                HAL_GPIO_WritePin(io_tmp->Group->Port[2], io_tmp->Group->Pin[2], (io_tmp->Value & 0x04));
+            }
+        }
+    }
+
+    return TRUE;
+}
+*/

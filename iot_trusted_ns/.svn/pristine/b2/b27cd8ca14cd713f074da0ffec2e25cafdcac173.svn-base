@@ -1,0 +1,8 @@
+core_cm33.h:2183:22:__NVIC_EnableIRQ	16	static
+core_cm33.h:2219:22:__NVIC_DisableIRQ	16	static
+fsl_common.h:419:28:EnableIRQ	16	static
+fsl_common.h:457:28:DisableIRQ	16	static
+fsl_common.c:83:6:EnableDeepSleepIRQ	24	static
+fsl_common.c:99:6:DisableDeepSleepIRQ	24	static
+fsl_common.c:117:7:SDK_Malloc	32	static
+fsl_common.c:137:6:SDK_Free	24	static

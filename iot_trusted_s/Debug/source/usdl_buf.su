@@ -1,0 +1,13 @@
+usdl_buf.c:29:12:GetDataLen	16	static
+usdl_buf.c:61:9:BufInit	64	static
+usdl_buf.c:87:5:BufAddData	40	static
+usdl_buf.c:139:5:BufGetData	48	static
+usdl_buf.c:196:5:BufDelHeadData	24	static
+usdl_buf.c:248:5:BufDelTailData	24	static
+usdl_buf.c:300:5:BufMovData	32	static
+usdl_buf.c:317:5:BufClearData	24	static
+usdl_buf.c:358:5:BufGetDataLen	24	static
+usdl_buf.c:377:5:BufGetLeftLen	24	static
+usdl_buf.c:414:6:BufFix	64	static
+usdl_buf.c:480:6:BufSetWPos	16	static
+usdl_buf.c:505:6:BufSetRPos	16	static

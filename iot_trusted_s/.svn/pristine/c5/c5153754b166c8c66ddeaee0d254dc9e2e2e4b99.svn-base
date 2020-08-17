@@ -1,0 +1,14 @@
+fsl_gpio.h:187:20:GPIO_PortSet	24	static
+fsl_gpio.h:199:20:GPIO_PortClear	24	static
+app_nbiot.c:164:6:ImeiCheck	24	static
+app_nbiot.c:182:6:AppNBIOTInit	8	static
+app_nbiot.c:193:6:nb_rst	8	static
+app_nbiot.c:201:5:AppNBRecvLenGet	8	static
+app_nbiot.c:205:5:AppNBDelete	16	static
+app_nbiot.c:209:5:AppNBRecv	24	static
+app_nbiot.c:222:5:AppNBSend	32	static
+app_nbiot.c:253:6:AppNBReset	4	static
+app_nbiot.c:260:6:ATSch	64	static
+app_nbiot.c:619:9:WaitResult	72	static
+app_nbiot.c:840:5:BytesMapHexStr	48	static
+app_nbiot.c:888:5:HexStrToBytes	40	static

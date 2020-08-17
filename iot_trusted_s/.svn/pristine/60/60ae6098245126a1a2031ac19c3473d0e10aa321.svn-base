@@ -1,0 +1,103 @@
+source/app_nbiot.o source/app_nbiot.d: ../source/app_nbiot.c \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_nbiot.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/type.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/main.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_adc.h \
+ ../drivers/fsl_rtc.h ../drivers/fsl_common.h \
+ ../device/fsl_device_registers.h ../device/LPC55S69_cm33_core0.h \
+ ../CMSIS/core_cm33.h ../CMSIS/cmsis_version.h ../CMSIS/cmsis_compiler.h \
+ ../CMSIS/cmsis_gcc.h ../CMSIS/mpu_armv8.h \
+ ../device/system_LPC55S69_cm33_core0.h \
+ ../device/LPC55S69_cm33_core0_features.h ../drivers/fsl_clock.h \
+ ../drivers/fsl_reset.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_GPS.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_uart.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/usdl_buf.h \
+ ../drivers/fsl_usart.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_nbiot.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_camera.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_rtc.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_upload.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_json.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/usdl_tools.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/usdl_buf.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/usdl_mem.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/nb_process.h \
+ C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_io.h \
+ ../drivers/fsl_clock.h ../utilities/fsl_debug_console.h \
+ ../drivers/fsl_common.h ../component/serial_manager/serial_manager.h \
+ ../component/serial_manager/serial_port_uart.h ../drivers/fsl_gpio.h
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_nbiot.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/type.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/main.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_adc.h:
+
+../drivers/fsl_rtc.h:
+
+../drivers/fsl_common.h:
+
+../device/fsl_device_registers.h:
+
+../device/LPC55S69_cm33_core0.h:
+
+../CMSIS/core_cm33.h:
+
+../CMSIS/cmsis_version.h:
+
+../CMSIS/cmsis_compiler.h:
+
+../CMSIS/cmsis_gcc.h:
+
+../CMSIS/mpu_armv8.h:
+
+../device/system_LPC55S69_cm33_core0.h:
+
+../device/LPC55S69_cm33_core0_features.h:
+
+../drivers/fsl_clock.h:
+
+../drivers/fsl_reset.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_GPS.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_uart.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/usdl_buf.h:
+
+../drivers/fsl_usart.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_nbiot.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_camera.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_rtc.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_upload.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_json.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/usdl_tools.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/usdl_buf.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/usdl_mem.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/nb_process.h:
+
+C:\Users\dgs\Documents\MCUXpressoIDE_11.0.0_2516\workspace\iot_trusted_s\app_include/app_io.h:
+
+../drivers/fsl_clock.h:
+
+../utilities/fsl_debug_console.h:
+
+../drivers/fsl_common.h:
+
+../component/serial_manager/serial_manager.h:
+
+../component/serial_manager/serial_port_uart.h:
+
+../drivers/fsl_gpio.h:

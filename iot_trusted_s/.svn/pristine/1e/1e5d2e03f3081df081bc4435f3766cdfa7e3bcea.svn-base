@@ -1,0 +1,11 @@
+core_cm33.h:2183:22:__NVIC_EnableIRQ	16	static
+fsl_common.h:419:28:EnableIRQ	16	static
+fsl_lpadc.h:539:20:LPADC_EnableInterrupts	16	static
+fsl_lpadc.h:699:20:LPADC_DoSoftwareTrigger	16	static
+fsl_power.h:498:20:POWER_DisablePD	16	static
+app_adc.c:35:6:ADC0_IRQHandler	8	static
+app_adc.c:44:6:app_adc_init	88	static
+app_adc.c:109:7:App_ADC_recv	8	static
+app_adc.c:130:7:Get_Voltage	24	static
+app_adc.c:135:7:Get_Temp	32	static
+app_adc.c:160:6:app_temp_recv1	32	static

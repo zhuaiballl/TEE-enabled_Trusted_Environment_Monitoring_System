@@ -1,0 +1,8 @@
+fsl_usart.h:345:20:USART_EnableInterrupts	16	static
+app_uart.c:77:6:USART_UserCallback	32	static
+app_uart.c:104:5:AppUartSend	40	static
+app_uart.c:127:6:AppUartInit	48	static
+app_uart.c:158:5:AppUartRecv	32	static
+app_uart.c:181:5:AppUartClear	24	static
+app_uart.c:187:5:AppUartDel	24	static
+app_uart.c:193:6:AppNBInit	40	static

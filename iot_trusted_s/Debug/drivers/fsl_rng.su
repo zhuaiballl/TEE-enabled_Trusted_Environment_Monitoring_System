@@ -1,0 +1,5 @@
+fsl_clock.h:781:20:CLOCK_EnableClock	24	static
+fsl_clock.h:791:20:CLOCK_DisableClock	24	static
+fsl_rng.c:27:6:RNG_Init	16	static
+fsl_rng.c:38:6:RNG_Deinit	16	static
+fsl_rng.c:49:10:RNG_GetRandomData	48	static

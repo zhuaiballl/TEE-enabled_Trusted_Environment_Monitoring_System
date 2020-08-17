@@ -1,0 +1,2 @@
+app_camera.c:16:5:app_camera_read	48	static
+app_camera.c:102:5:image_summer	24	static

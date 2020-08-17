@@ -1,0 +1,9 @@
+fsl_clock.h:781:20:CLOCK_EnableClock	24	static
+fsl_rtc.c:59:13:RTC_CheckDatetimeFormat	40	static
+fsl_rtc.c:91:17:RTC_ConvertDatetimeToSeconds	56	static
+fsl_rtc.c:121:13:RTC_ConvertSecondsToDatetime	56	static
+fsl_rtc.c:199:6:RTC_Init	16	static
+fsl_rtc.c:230:10:RTC_SetDatetime	16	static
+fsl_rtc.c:252:6:RTC_GetDatetime	24	static
+fsl_rtc.c:275:10:RTC_SetAlarm	24	static
+fsl_rtc.c:311:6:RTC_GetAlarm	24	static

@@ -1,0 +1,10 @@
+core_cm33.h:2183:22:__NVIC_EnableIRQ	16	static
+fsl_common.h:419:28:EnableIRQ	16	static
+fsl_rtc.h:184:20:RTC_EnableInterrupts	24	static
+fsl_rtc.h:240:24:RTC_GetStatusFlags	16	static
+fsl_rtc.h:252:20:RTC_ClearStatusFlags	24	static
+fsl_rtc.h:280:20:RTC_StartTimer	16	static
+fsl_rtc.h:292:20:RTC_StopTimer	16	static
+app_rtc.c:10:6:RTC_IRQHandler	16	static
+app_rtc.c:29:6:App_Set_RTC	16	static
+app_rtc.c:49:6:App_SetAlarm_RTC	32	static

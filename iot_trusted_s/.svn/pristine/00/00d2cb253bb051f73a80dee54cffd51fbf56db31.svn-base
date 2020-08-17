@@ -1,0 +1,2 @@
+app_aes.c:5:6:app_aes_encrypt	216	static
+app_aes.c:20:6:app_aes_decrypt	216	static

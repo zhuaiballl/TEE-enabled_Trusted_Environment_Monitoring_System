@@ -1,0 +1,8 @@
+#ifndef _SECURE_VARIABLE_H
+#define _SECURE_VARIABLE_H
+#include "type.h"
+
+#define RTC_ALARM_ADDRESS 	(0x200800f0u)
+#define Rtc_Alarm			((bool*) RTC_ALARM_ADDRESS)
+
+#endif/*_SECURE_VARIABLE_H*/

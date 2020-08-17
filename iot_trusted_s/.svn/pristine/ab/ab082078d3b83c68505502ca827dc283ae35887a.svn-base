@@ -1,0 +1,5 @@
+#include "type.h"
+#include "app_nbiot.h"
+#include "app_json.h"
+#include "math.h"
+u32 upload_construct(u8* buf);

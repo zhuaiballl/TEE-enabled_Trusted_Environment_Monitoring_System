@@ -1,0 +1,4 @@
+main_s.c:40:6:SystemInitHook	8	static
+main_s.c:54:5:main	40	static
+main_s.c:118:45:printdd	16	static
+main_s.c:125:6:CLOCK_AttachClktoFLEXCOM	8	static

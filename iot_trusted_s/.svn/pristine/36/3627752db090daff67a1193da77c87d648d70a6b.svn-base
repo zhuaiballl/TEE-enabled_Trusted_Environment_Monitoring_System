@@ -1,0 +1,8 @@
+#include "type.h"
+#include "app_GPS.h"
+#include "app_json.h"
+#include "secure_variable.h"
+#include "math.h"
+//__attribute__ ((cmse_nonsecure_entry)) u32 upload_construct(u8* buf);
+
+//__attribute__ ((cmse_nonsecure_entry)) void app_GPS_recv_s();

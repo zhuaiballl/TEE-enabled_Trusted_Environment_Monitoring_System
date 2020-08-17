@@ -1,0 +1,32 @@
+/*
+ * GENERATED FILE - DO NOT EDIT
+ * Copyright (c) 2008-2013 Code Red Technologies Ltd,
+ * Copyright 2015, 2018-2019 NXP
+ * (c) NXP Semiconductors 2013-2019
+ * Generated linker script file for LPC55S69
+ * Created from memory.ldt by FMCreateLinkMemory
+ * Using Freemarker v2.3.23
+ * MCUXpresso IDE v11.0.0 [Build 2516] [2019-06-05] on 2019-11-20 23:23:48
+ */
+
+MEMORY
+{
+  /* Define each memory region */
+  PROGRAM_FLASH (rx) : ORIGIN = 0x20000, LENGTH = 0x20000 /* 128K bytes (alias Flash) */  
+  Ram0 (rwx) : ORIGIN = 0x20030000, LENGTH = 0x10000 /* 64K bytes (alias RAM) */  
+  RAM_00 (rwx) : ORIGIN = 0x20040000, LENGTH = 0x400 /* 1K bytes (alias RAM2) */  
+}
+
+  /* Define a symbol for the top of each memory region */
+  __base_PROGRAM_FLASH = 0x20000  ; /* PROGRAM_FLASH */  
+  __base_Flash = 0x20000 ; /* Flash */  
+  __top_PROGRAM_FLASH = 0x20000 + 0x20000 ; /* 128K bytes */  
+  __top_Flash = 0x20000 + 0x20000 ; /* 128K bytes */  
+  __base_Ram0 = 0x20030000  ; /* Ram0 */  
+  __base_RAM = 0x20030000 ; /* RAM */  
+  __top_Ram0 = 0x20030000 + 0x10000 ; /* 64K bytes */  
+  __top_RAM = 0x20030000 + 0x10000 ; /* 64K bytes */  
+  __base_RAM_00 = 0x20040000  ; /* RAM_00 */  
+  __base_RAM2 = 0x20040000 ; /* RAM2 */  
+  __top_RAM_00 = 0x20040000 + 0x400 ; /* 1K bytes */  
+  __top_RAM2 = 0x20040000 + 0x400 ; /* 1K bytes */  

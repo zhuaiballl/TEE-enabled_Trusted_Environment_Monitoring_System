@@ -1,0 +1,1 @@
+source/app_gpio.o source/app_gpio.d: ../source/app_gpio.c

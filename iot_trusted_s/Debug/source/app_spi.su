@@ -1,0 +1,5 @@
+core_cm33.h:2183:22:__NVIC_EnableIRQ	16	static
+fsl_common.h:419:28:EnableIRQ	16	static
+app_spi.c:29:6:app_spi_callback	32	static
+app_spi.c:48:6:AppSpiInit	48	static
+app_spi.c:82:5:AppSpiSend	48	static
